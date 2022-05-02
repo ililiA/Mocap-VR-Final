@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/mocap.unity
     guid: b5dde855ef8871c4392b173642b66fd3
+  - enabled: 1
+    path: Assets/Scenes/VR_Interactions.unity
+    guid: 8a98fda3df31196438d0caa5a85543dc
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: fdafd2d130dc7c5418539a0d5637beee, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 138ffcb4565a1ca4a9f7297d5340d9b3, type: 2}

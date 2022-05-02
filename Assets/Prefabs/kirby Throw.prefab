@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8729668085893516237}
   - component: {fileID: 6233942068378005933}
   - component: {fileID: 139948628117086297}
+  - component: {fileID: 5344322221958923135}
   m_Layer: 0
   m_Name: kirby Throw
   m_TagString: Untagged
@@ -186,6 +187,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   children: 1
+--- !u!135 &5344322221958923135
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276944117763481000}
+  m_Material: {fileID: 13400000, guid: 9f93f63d068b08c459038c40fce897d8, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.14
+  m_Center: {x: -0.1, y: 0.07, z: 0.08}
 --- !u!1 &2751975948206749921
 GameObject:
   m_ObjectHideFlags: 0
